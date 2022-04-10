@@ -6,13 +6,15 @@ var btn = $('button')
 
 // difines function display answers
 function displayAnswers(){
+    // sets i to a random number
    var i = Math.floor(Math.random() * responses.length);
-
+// grabs p element to display outcomes
    var pEl = $('p')
 
    pEl.text(responses[i])
 }
 
+// possible out comes 
 var responses = [
     'It is certain.',
     'It is decidedly so.',
